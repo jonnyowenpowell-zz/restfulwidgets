@@ -1,0 +1,97 @@
+$black: #000
+$white: #fff
+$blue: #00f
+$red: #f00
+$bluegrey: #b4b9be
+$lightgrey: #fafafa
+$whitegrey: #e5e5e5
+$darkgrey: #23282d
+$transparent40pc: rgba(0, 0, 0, .04)
+
+.default
+  background: $blue
+
+.restfulwidgets-widget-options-section
+  padding-bottom: 10px
+  padding-left: 5px
+  padding-right: 5px
+
+  input
+    margin-bottom: 5px
+    margin-top: 10px
+
+.restfulwidgets-parameter-placeholder
+  border: 1px dashed $bluegrey
+  box-sizing: border-box
+  height: 45px
+  margin: auto 0
+  width: 100%
+
+.restfulwidgets-parameter-type-sortable,
+.restfulwidgets-parameter-type-draggable
+  background: $lightgrey
+  border: 1px solid $whitegrey
+  box-shadow: 0 1px 1px $transparent40pc
+  color: $darkgrey
+  font-size: 13px
+  font-weight: 600
+  line-height: 1.4em
+
+.restfulwidgets-parameter-type-sortable
+  padding: 5px important
+
+  input
+    font-weight: 400
+
+.restfulwidgets-request-widget-parameters-list
+  margin-bottom: 10px important
+
+.restfulwidgets-parameter-options
+  p,
+  input
+    display: inline-block
+    vertical-align: top
+    width: 100%
+
+  p
+    margin-left: 5%
+    width: 45%
+
+  input
+    width: 45%
+
+.restfulwidgets-input-error-notification
+  color: $red
+  display: none
+  float: right
+  font-style: italic
+
+.restfulwidgets-widget-request-form
+  input
+    margin-bottom: 15px
+
+.restfulwidgets-slider-wrapper
+  text-align: center
+
+  :before
+    content: ''
+    display: inline-block
+    height: 100%
+    margin-right: -.25em
+    vertical-align: middle
+
+.restfulwidgets-slider
+  display: inline-block
+  vertical-align: middle
+  width: 65%
+
+.restfulwidgets-slider-value
+  background: $black
+  border-radius: 3px
+  color: $white
+  float: right
+  padding: 0 2px
+  width: 25%
+
+.restfulwidgets-response-wrapper
+  display: none

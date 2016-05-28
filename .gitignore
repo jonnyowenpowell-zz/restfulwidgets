@@ -1,0 +1,11 @@
+# Sass cache files
+.sass-cache
+
+# Default output directory
+build
+
+# Node.js modules directory
+node_modules
+
+# OS X
+.DS_Store
